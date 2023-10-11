@@ -23,6 +23,10 @@ function App() {
       <div>
         <img src={dashboard} alt="" />
       </div>
+      <div>
+
+      </div>
+      <p>Copyright Ping. All rights reserved</p>
     </div>
   )
 }
