@@ -9,15 +9,14 @@ import {FiInstagram} from 'react-icons/fi'
 import './App.css'
 
 function App() {
-
-const {register, handleSubmit,errors} = useForm();
-
-const schema = yup.object().shape({
-  email:yup
-  .string()
-  .email()
-  .required(),
-})
+  const schema = yup.object().shape({
+    email:yup
+    .string()
+    .email()
+    .required(),
+  })
+  
+  const {register, handleSubmit,errors} = useForm();
   const onSubmit=(data)=>{
     console.log(data);
   }
