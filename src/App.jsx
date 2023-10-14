@@ -9,8 +9,8 @@ import './App.css'
 
 function App() {
 
+const {register, handleSubmit,errors} = useForm()
 
-  
   return (
     <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium' >
       <img
