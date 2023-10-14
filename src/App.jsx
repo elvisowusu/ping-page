@@ -39,7 +39,8 @@ function App() {
           placeholder='Your email address'
           type="email"
           {...register("email")}
-         />
+        />
+        {errors?<p className='text-xs'>{errors.email?.message}</p>:""} 
         <input
           className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue'
           value="Notify Me"
