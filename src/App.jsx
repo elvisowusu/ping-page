@@ -35,12 +35,12 @@ function App() {
       <p className='text-[0.7rem] mt-2 mb-6 font-light text-VeryDarkBlue'>Subscribe and get notified</p>
       <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col'>
         <input
-          className='placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-2xl w-[16rem] h-9 px-4 focus:border-Colorblue outline-none' 
+          className={`placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-2xl w-[16rem] h-9 px-4 focus:border-Colorblue ${errors.email? 'border-LightRed':''} outline-none`}
           placeholder='Your email address'
           type="email"
           {...register("email")}
         />
-        {errors?<p className='text-xs mb-2 text-LightRed'>{errors.email?.message}</p>:""} 
+        <p className='text-xs mb-2 text-LightRed'>{errors.email?.message}</p>
         <input
           className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue'
           value="Notify Me"
