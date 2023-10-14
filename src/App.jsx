@@ -1,4 +1,5 @@
 import React from 'react'
+import { useForm } from 'react-hook-form'
 import logo from './assets/logo.svg'
 import dashboard from './assets/illustration-dashboard.png'
 import {BiLogoFacebook} from 'react-icons/bi'
@@ -8,6 +9,8 @@ import './App.css'
 
 function App() {
 
+
+  
   return (
     <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium' >
       <img
