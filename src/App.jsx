@@ -11,6 +11,13 @@ import './App.css'
 function App() {
 
 const {register, handleSubmit,errors} = useForm();
+
+const schema = yup.object().shape({
+  email:yup
+  .string()
+  .email()
+  .required(),
+})
   const onSubmit=(data)=>{
     console.log(data);
   }
