@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import * as yup from 'yup'
 import logo from './assets/logo.svg'
 import dashboard from './assets/illustration-dashboard.png'
 import {BiLogoFacebook} from 'react-icons/bi'
