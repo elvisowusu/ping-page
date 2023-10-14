@@ -42,7 +42,7 @@ function App() {
         />
         <p className='text-xs mb-2 text-LightRed italic'>{errors.email?.message}</p>
         <input
-          className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue'
+          className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white'
           value="Notify Me"
           type="submit"
         />
