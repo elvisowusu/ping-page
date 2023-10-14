@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import logo from './assets/logo.svg'
 import dashboard from './assets/illustration-dashboard.png'
 import {BiLogoFacebook} from 'react-icons/bi'
@@ -15,15 +15,15 @@ function App() {
         alt="logo"
         className='h-4 mt-[4rem] mb-7'
       />
-      <p className='text-[1.45rem] text-colorGray'>We are launching <span className='font-black text-VeryDarkBlue' >soon!</span></p>
-      <p className='text-[0.8rem] mt-2 mb-6'>Subscribe and get notified</p>
+      <p className='text-[1.3rem] text-colorGray'>We are launching <span className='font-black text-VeryDarkBlue' >soon!</span></p>
+      <p className='text-[0.7rem] mt-2 mb-6 font-medium'>Subscribe and get notified</p>
       <form className='flex flex-col'>
         <input
-        className='placeholder:text-sm border border-red-300 rounded-xl' 
+        className='placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-2xl w-[16rem] h-9 px-4 mb-2 focus:border-Colorblue outline-none' 
           placeholder='Your email address'
           type="email"
          />
-        <input className='bg-Colorblue text-white'
+        <input className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold'
           value="Notify Me"
           type="submit"
            />
