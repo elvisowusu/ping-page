@@ -6,7 +6,7 @@ import logo from './assets/logo.svg'
 import dashboard from './assets/illustration-dashboard.png'
 import {BiLogoFacebook} from 'react-icons/bi'
 import {BiLogoTwitter} from 'react-icons/bi'
-import {FiInstagram} from 'react-icons/fi'
+import {PiInstagramLogoBold} from 'react-icons/pi'
 import './App.css'
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
       <div className='flex gap-2 mt-[6rem]'>
         <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
         <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
-        <FiInstagram className='rounded-full h-7 w-7 px-[0.5rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
+        <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
       </div>
       <p className='text-[0.6rem] text-colorGray mt-7'>© Copyright Ping. All rights reserved</p>
     </div>
