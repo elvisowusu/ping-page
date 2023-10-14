@@ -22,7 +22,7 @@ function App() {
           placeholder='Your email address'
           type="email"
          />
-        <input className='bg-blue-600 text-white'
+        <input className='bg-Colorblue text-white'
           value="Notify Me"
           type="submit"
            />
