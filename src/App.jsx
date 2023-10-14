@@ -32,9 +32,9 @@ function App() {
         <img src={dashboard} alt="" />
       </div>
       <div className='flex'>
-        <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.4rem] border border-blue-700'/>
-        <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.4rem]'/>
-        <FiInstagram className='rounded-full h-7 w-7 px-[0.5rem]'/>
+        <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-blue-700 hover:bg-Colorblue hover:text-white'/>
+        <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-blue-700 hover:bg-Colorblue hover:text-white'/>
+        <FiInstagram className='rounded-full h-7 w-7 px-[0.5rem] border text-Colorblue border-blue-700 hover:bg-Colorblue hover:text-white'/>
       </div>
       <p className='text-[0.6rem]'>Copyright Ping. All rights reserved</p>
     </div>
