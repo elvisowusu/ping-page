@@ -33,7 +33,6 @@ const {register, handleSubmit,errors} = useForm();
           className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue'
           value="Notify Me"
           type="submit"
-          
         />
       </form>
       <div>
