@@ -9,16 +9,17 @@ import './App.css'
 function App() {
 
   return (
-    <div className='flex flex-col justify-center items-center' >
+    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium' >
       <img
         src={logo}
         alt="logo"
         className='h-4 mt-[4rem] mb-7'
       />
-      <p className='text-[1.45rem]'>We are launching <span className='' >soon</span></p>
-      <p className='text-sm'>Subscribe and get notified</p>
+      <p className='text-[1.45rem] text-colorGray'>We are launching <span className='font-black text-VeryDarkBlue' >soon!</span></p>
+      <p className='text-[0.8rem] mt-2 mb-6'>Subscribe and get notified</p>
       <form className='flex flex-col'>
-        <input 
+        <input
+        className='placeholder:text-sm border border-red-300 rounded-xl' 
           placeholder='Your email address'
           type="email"
          />
