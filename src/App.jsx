@@ -13,7 +13,7 @@ function App() {
   const schema = yup.object().shape({
     email:yup
     .string()
-    .email()
+    .email("Please provide a valid email address")
     .required(),
   })
 
