@@ -42,7 +42,7 @@ function App() {
         />
         <p className='text-xs mb-2 text-LightRed italic'>{errors.email?.message}</p>
         <input
-          className='bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white'
+          className='cursor-pointer bg-Colorblue text-white text-xs rounded-2xl h-9 font-semibold mb-[4rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white'
           value="Notify Me"
           type="submit"
         />
@@ -51,9 +51,9 @@ function App() {
         <img src={dashboard} alt="" />
       </div>
       <div className='flex gap-2 mt-[6rem]'>
-        <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
-        <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
-        <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white'/>
+        <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
+        <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
+        <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
       </div>
       <p className='text-[0.6rem] text-colorGray mt-7'>© Copyright Ping. All rights reserved</p>
     </div>
