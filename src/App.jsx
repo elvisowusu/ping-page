@@ -36,7 +36,7 @@ function App() {
       <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col sm:flex-row sm:gap-3 md:gap-2'>
         <div>
         <input
-          className={`text-sm placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-3xl w-[16rem] sm:w-[18rem]  md:w-[19rem] lg:w-[20rem] h-9 md:h-10 lg:h-11 px-4 focus:border-Colorblue ${errors.email? 'border-LightRed focus:border-LightRed placeholder:text-black placeholder:font-semibold':''} outline-none sm:py-5 sm:px-5`}
+          className={`text-sm placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-3xl w-[16rem] sm:w-[18rem]  md:w-[19rem] lg:w-[20rem] h-9 md:h-11 px-4 focus:border-Colorblue ${errors.email? 'border-LightRed focus:border-LightRed placeholder:text-black placeholder:font-semibold':''} outline-none sm:py-5 sm:px-5`}
           placeholder={`${errors.email? "example@email/com":"Your email address"}`}
           type="email"
           {...register("email")}
@@ -44,7 +44,7 @@ function App() {
         <p className='text-xs mb-2 text-LightRed italic text-left pl-5'>{errors.email?.message}</p>
         </div>
         <input
-          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 md:h-10 lg:h-11 font-semibold mb-[4rem] sm:w-[10rem] shadow-md md:shadow-lg lg:shadow-xl shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
+          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 md:h-11 font-semibold mb-[4rem] sm:w-[10rem] shadow-md md:shadow-lg lg:shadow-xl shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
           value="Notify Me"
           type="submit"
         />
