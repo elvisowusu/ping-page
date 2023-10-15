@@ -49,7 +49,7 @@ function App() {
           type="submit"
         />
       </form>
-      <div className='sm:w-[29rem] lg:w-[31rem]'>
+      <div className='w-[23rem] sm:w-[29rem] lg:w-[31rem]'>
         <img src={dashboard} alt="" />
       </div>
       <div className='flex gap-2 lg:gap-3 mt-[5rem]'>
