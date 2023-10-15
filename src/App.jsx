@@ -25,7 +25,7 @@ function App() {
     console.log(data);
   }
   return (
-    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium sm:bg-red-300 md:bg-green-300' >
+    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium sm:bg-red-300 md:bg-green-300 lg:bg-pink-300'>
       <img
         src={logo}
         alt="logo"
@@ -33,7 +33,7 @@ function App() {
       />
       <p className='text-[1.3rem] sm:text-[1.7rem] text-colorGray'>We are launching <span className='font-extrabold text-VeryDarkBlue' >soon!</span></p>
       <p className='text-[0.7rem] sm:text-[0.8rem] mt-1 mb-6 font-light text-VeryDarkBlue'>Subscribe and get notified</p>
-      <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col sm:flex-row sm:gap-1'>
+      <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col sm:flex-row sm:gap-1 md:gap-2'>
         <div>
 
         <input
