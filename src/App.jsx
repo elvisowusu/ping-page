@@ -25,7 +25,7 @@ function App() {
     console.log(data);
   }
   return (
-    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium sm:bg-red-300 md:bg-green-300 lg:bg-pink-300'>
+    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium'>
       <img
         src={logo}
         alt="logo"
@@ -52,12 +52,12 @@ function App() {
       <div className='sm:w-[29rem] lg:w-[31rem]'>
         <img src={dashboard} alt="" />
       </div>
-      <div className='flex gap-2 mt-[6rem]'>
+      <div className='flex gap-2 lg:gap-3 mt-[6rem]'>
         <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
       </div>
-      <p className='text-[0.6rem] text-colorGray mt-6 mb-8'>© Copyright Ping. All rights reserved</p>
+      <p className='text-[0.6rem] text-colorGray mt-6 mb-5'>© Copyright Ping. All rights reserved</p>
     </div>
   ) 
 }
