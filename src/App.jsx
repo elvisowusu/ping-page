@@ -44,7 +44,7 @@ function App() {
         <p className='text-xs mb-2 text-LightRed italic text-left pl-5'>{errors.email?.message}</p>
         </div>
         <input
-          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 md:h-10 lg:h-11 font-semibold mb-[4rem] sm:w-[10rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
+          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 md:h-10 lg:h-11 font-semibold mb-[4rem] sm:w-[10rem] shadow-md md:shadow-lg lg:shadow-xl shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
           value="Notify Me"
           type="submit"
         />
