@@ -29,7 +29,7 @@ function App() {
       <img
         src={logo}
         alt="logo"
-        className='h-4 sm:h-5 md:h-6 mt-[4rem] md:mt-[4.5rem] mb-7'
+        className='h-4 sm:h-5 md:h-6 mt-[4rem] sm:mt-[1rem] mb-7'
       />
       <p className='text-[1.3rem] sm:text-[1.7rem] md:text-[1.9rem] text-colorGray'>We are launching <span className='font-extrabold text-VeryDarkBlue' >soon!</span></p>
       <p className='text-[0.7rem] sm:text-[0.8rem] md:text-[0.85rem] mt-1 mb-6 font-light text-VeryDarkBlue'>Subscribe and get notified</p>
@@ -52,12 +52,12 @@ function App() {
       <div className='sm:w-[29rem] lg:w-[31rem]'>
         <img src={dashboard} alt="" />
       </div>
-      <div className='flex gap-2 lg:gap-3 mt-[6rem]'>
+      <div className='flex gap-2 lg:gap-3 mt-[5rem]'>
         <BiLogoFacebook className='rounded-full h-7 w-7 px-[0.2rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
       </div>
-      <p className='text-[0.6rem] text-colorGray mt-6 mb-5 cursor-pointer'>© Copyright Ping. All rights reserved</p>
+      <p className='text-[0.6rem] text-colorGray mt-6 cursor-pointer'>© Copyright Ping. All rights reserved</p>
     </div>
   ) 
 }
