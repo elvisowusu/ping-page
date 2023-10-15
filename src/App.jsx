@@ -57,7 +57,7 @@ function App() {
         <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
       </div>
-      <p className='text-[0.6rem] text-colorGray mt-6 mb-5'>© Copyright Ping. All rights reserved</p>
+      <p className='text-[0.6rem] text-colorGray mt-6 mb-5 cursor-pointer'>© Copyright Ping. All rights reserved</p>
     </div>
   ) 
 }
