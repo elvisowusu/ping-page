@@ -25,19 +25,18 @@ function App() {
     console.log(data);
   }
   return (
-    <div className='flex flex-col justify-center text-center items-center font-LibreFranklin font-medium sm:bg-red-300 md:bg-green-300 lg:bg-pink-300'>
+    <div className='flex flex-col justify-center items-center font-LibreFranklin font-medium sm:bg-red-300 md:bg-green-300 lg:bg-pink-300'>
       <img
         src={logo}
         alt="logo"
         className='h-4 sm:h-5 md:h-6 mt-[4rem] md:mt-[4.5rem] mb-7'
       />
-      <p className='text-[1.3rem] sm:text-[1.7rem] md:text-[1.9rem] lg:text-[2.6rem] text-colorGray'>We are launching <span className='font-extrabold text-VeryDarkBlue' >soon!</span></p>
-      <p className='text-[0.7rem] sm:text-[0.8rem] md:text-[0.85rem] lg:text-[0.9rem] mt-1 mb-6 font-light text-VeryDarkBlue'>Subscribe and get notified</p>
+      <p className='text-[1.3rem] sm:text-[1.7rem] md:text-[1.9rem] text-colorGray'>We are launching <span className='font-extrabold text-VeryDarkBlue' >soon!</span></p>
+      <p className='text-[0.7rem] sm:text-[0.8rem] md:text-[0.85rem] mt-1 mb-6 font-light text-VeryDarkBlue'>Subscribe and get notified</p>
       <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col sm:flex-row sm:gap-3 md:gap-2'>
         <div>
-
         <input
-          className={`text-sm placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-3xl w-[16rem] sm:w-[18rem]  md:w-[19rem] lg:w-[21rem] h-9 md:h-10 lg:h-11 px-4 focus:border-Colorblue ${errors.email? 'border-LightRed focus:border-LightRed placeholder:text-black placeholder:font-semibold':''} outline-none sm:py-5 sm:px-5`}
+          className={`text-sm placeholder:text-sm placeholder:text-PaleBlue border border-PaleBlue rounded-3xl w-[16rem] sm:w-[18rem]  md:w-[19rem] lg:w-[20rem] h-9 md:h-10 px-4 focus:border-Colorblue ${errors.email? 'border-LightRed focus:border-LightRed placeholder:text-black placeholder:font-semibold':''} outline-none sm:py-5 sm:px-5`}
           placeholder={`${errors.email? "example@email/com":"Your email address"}`}
           type="email"
           {...register("email")}
@@ -45,12 +44,12 @@ function App() {
         <p className='text-xs mb-2 text-LightRed italic text-left pl-5'>{errors.email?.message}</p>
         </div>
         <input
-          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 lg:h-11 font-semibold mb-[4rem] sm:w-[10rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
+          className='cursor-pointer bg-Colorblue text-white text-xs rounded-3xl h-9 sm:h-10 md:h-10 font-semibold mb-[4rem] sm:w-[10rem] shadow-md shadow-PaleBlue hover:border hover:border-Colorblue hover:text-Colorblue hover:bg-white sm:px-6 md:px-11'
           value="Notify Me"
           type="submit"
         />
       </form>
-      <div className='sm:w-[30rem] lg:w-[33rem]'>
+      <div className='sm:w-[29rem] lg:w-[31rem]'>
         <img src={dashboard} alt="" />
       </div>
       <div className='flex gap-2 mt-[6rem]'>
@@ -58,7 +57,7 @@ function App() {
         <BiLogoTwitter className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
         <PiInstagramLogoBold className='rounded-full h-7 w-7 px-[0.3rem] border text-Colorblue border-PaleBlue hover:bg-Colorblue hover:text-white cursor-pointer'/>
       </div>
-      <p className='text-[0.6rem] text-colorGray mt-7'>© Copyright Ping. All rights reserved</p>
+      <p className='text-[0.6rem] text-colorGray mt-6 mb-8'>© Copyright Ping. All rights reserved</p>
     </div>
   ) 
 }
